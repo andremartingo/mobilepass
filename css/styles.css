@@ -6,6 +6,21 @@
 *
 */
 
+body {
+    background-color: black;
+}
+
+h2, p {
+    color: white;
+}
+
+.img-fluid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .brand {
     width: auto;
     height: 25px;
@@ -243,9 +258,9 @@
 }
 
 .footerLinks a:link {
-    color: rgba(255, 128, 0, 1) !important;
+    color: rgba(255, 255, 255, 1) !important;
 }
 
 .footerLinks a {
-    color: rgba(255, 128, 0, 1) !important;
+    color: rgba(255, 255, 255, 1) !important;
 }
